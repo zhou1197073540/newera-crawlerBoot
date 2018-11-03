@@ -1,0 +1,1380 @@
+2018-11-01 10:30:07 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 10:30:08 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 10:30:08 ERROR [pool-1-thread-1] u.c.w.Spider process request Request{url='http://stock.eastmoney.com/a/cdpfx.html', method='null', extras=null, priority=0, headers={}, cookies={}} error
+com.alibaba.fastjson.JSONException: syntax error, pos 3, json : 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--published at 2018-11-01 10:29:35 by www.eastmoney.com 72 -->
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>大盘分析 _ 东方财富网</title>
+    <link type="text/css" href="Style/Layout?v=D-Lx7AIA9yzpTaxrfzY510uaHfFcF-f4wjxjND2x6AM1" rel="stylesheet"/>
+<link type="text/css" href="Style/Module/ModuleStyle?v=PzSCtU0BV4YixZ6cp6_pOMJheFE-Hr_hpiOj4P1oUVY1" rel="stylesheet"/>
+
+    <script type="text/javascript" src="Script/Layout?v=IVC75Y53KHfqUSyWvPF4XYN43H6TuNcADSCm2eYb1zg1"></script>
+
+    <script src="http://emcharts.dfcfw.com/suggest/stocksuggest2017.min.js" charset="utf-8"></script>
+    <!--head嵌入内容区域-->
+    
+    <link type="text/css" href="Style/List?v=ssakIqyvDzxRwOezcaWGPIvNXFr-qjvfVGmei7KYHK01" rel="stylesheet"/>
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <base target="_blank" />
+</head>
+<body>
+    <div style="background-color:#fff;width:1000px;margin:0 auto;">
+        <img id="weixin-share" style="position: absolute;width: 0;height: 0;left: -1000px;z-index: -1;" src="http://cmsjs.eastmoney.com/common/weixin-share.png" />
+        <div class="page">
+            <!--主体-->
+            
+<!--head嵌入内容区域-->
+<!--body-->
+<!--头部-->
+
+<div class="clearfix" id="header">
+    <!-- banner -->
+    <div style="float:left;height:60px;">
+
+<iframe class="lyad" width="1000" height="60" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&amp;c=1060&amp;op=1"></iframe>
+    </div>
+    <!-- Navigation加载-->
+
+
+<div id="header">
+    <div class="GlobalNav" id="title">
+        <ul><li class='first'><a target="_blank"  target="_blank" href="http://finance.eastmoney.com/" >财经</a></li><li><a target="_blank"  target="_blank" href="http://finance.eastmoney.com/yaowen.html" >要闻</a></li><li><a target="_blank"  target="_blank" href="http://stock.eastmoney.com/" >股票</a></li><li><span class="red"><a target="_blank"  target="_blank" href="http://stock.eastmoney.com/newstock.html" >新股</a></span></li><li><a target="_blank"  target="_blank" href="http://stock.eastmoney.com/gzqh.html" >期指</a></li><li><a target="_blank"  target="_blank" href="http://option.eastmoney.com/" >期权</a></li><li><span class="red"><a target="_blank"  target="_blank" href="http://quote.eastmoney.com/flash/sz300059.html" >行情</a></span></li><li><a target="_blank"  target="_blank" href="http://data.eastmoney.com/" >数据</a></li><li><a target="_blank"  target="_blank" href="http://stock.eastmoney.com/global.html" >全球</a></li><li><a target="_blank"  target="_blank" href="http://stock.eastmoney.com/america.html" >美股</a></li><li><a target="_blank"  target="_blank" href="http://hk.eastmoney.com/" >港股</a></li><li><a target="_blank"  target="_blank" href="http://futures.eastmoney.com/" >期货</a></li><li><a target="_blank"  target="_blank" href="http://forex.eastmoney.com/" >外汇</a></li><li><a target="_blank"  target="_blank" href="http://bank.eastmoney.com/" >银行</a></li><li><a target="_blank"  target="_blank" href="http://www.1234567.com.cn/" >基金</a></li><li><a target="_blank"  target="_blank" href="http://money.eastmoney.com/" >理财</a></li><li><a target="_blank"  target="_blank" href="http://bond.eastmoney.com/" >债券</a></li><li><a target="_blank"  target="_blank" href="http://video.eastmoney.com/" >视频</a></li><li><span class="red"><a target="_blank"  target="_blank" href="http://guba.eastmoney.com/" >股吧</a></span></li><li><a target="_blank"  target="_blank" href="http://fund2.eastmoney.com/" >基金吧</a></li><li><a target="_blank"  target="_blank" href="http://blog.eastmoney.com/" >博客</a></li><li><span class="red"><a target="_blank"  target="_blank" href="http://caifuhao.eastmoney.com/" >财富号</a></span></li><li><a target="_blank"  target="_blank" href="http://so.eastmoney.com/" >搜索</a></li></ul>
+    </div>
+</div>
+    <!--advertisement begin-->
+    <div class="advert">
+        <!--advertisement begin-->
+
+
+<div class="AdvImg">
+    <div class="left">
+        <!-- AdSame ShowCode Begin -->
+
+<iframe class="lyad" width="175" height="90" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&amp;c=105&amp;op=1"></iframe>        <!-- AdSame ShowCode End -->
+    </div>
+    <div class="center">
+        <!-- AdSame ShowCode Begin -->
+
+<iframe class="lyad" width="636" height="90" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&amp;c=1338&amp;op=1"></iframe>        <!-- AdSame ShowCode End -->
+    </div>
+    <div class="right">
+        <!-- AdSame ShowCode Begin -->
+
+<iframe class="lyad" width="175" height="90" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&amp;c=106&amp;op=1"></iframe>        <!-- AdSame ShowCode End -->
+    </div>
+</div>
+        <!--advertisement end-->
+    </div>
+    <!--advertisement end-->
+
+
+
+    <div class="PageLogo">
+        <div class="picker">
+            <div class="logo_img">
+                <a style="float:left;" href="http://www.eastmoney.com" target="_blank">
+                    
+                    <img height="26" border="0" alt="" src="Content/images/logo.gif">
+                </a>
+                <span class="line-1"></span>
+                <a style="float:left;margin-left:10px;" href="http://stock.eastmoney.com/" target="_blank">
+                    <img border="0" alt="" src="Content/images/channel_logo/stock_logo.png">
+                </a>
+                    <a class="advert_top" target="_blank" href="http://fundact.eastmoney.com/information/2014025/?spm=100016001.mw">活期宝申赎0费用 历史七日年化收益达3-6%</a>
+            </div>
+            <div class="search">
+                
+<div id="Header_tj_Bull" class="Search_lg">
+    <form id="sofrm" method="get" action="" style="z-index:801;">
+        <input type="text" maxlength="40" class="inp-txt" name="StockCode_bar" id="StockCode_bar" autocomplete="off" />
+        <input type="submit" class="btnNew" value="搜索" />
+    </form>
+</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<div class="ItemNav clearfix">
+    <div class="menu">
+                <div class="menuTitle"><a href="http://stock.eastmoney.com/" target="_blank">股票首页</a></div>
+            <div class="mainMenu">
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/bidu.html">必读</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/shichang.html">市场</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/gegu.html">个股</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/hangye.html">行业</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/report.html">研报</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/zhuli.html">主力</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://jigou.eastmoney.com/stock.html">机构</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://mingjia.eastmoney.com/stock.html">名家</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/newstock.html">新股</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/chuangyeban.html">创业板</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/bgu.html">B股</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://xinsanban.eastmoney.com/">三板</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/gzqh.html">期指</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/global.html">全球</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/zairongzi.html">再融资</a>
+                    </div>
+                        <b></b>
+                    <div class="item stock_listnav">
+                        <a target="_blank" href="http://stock.eastmoney.com/xuexiao.html">学校</a>
+                    </div>
+            </div>
+        <div class="shadow"></div>
+    </div>
+</div>
+</div>
+<!--列表-->
+<div class="main pt10">
+    <div class="newsList w690 pr9 bl gl">
+        <div class="titlebar">
+            <div class="siteMapTitle">大盘分析</div>
+            <b></b>
+            <div class="siteMap">
+                <a href="http://www.eastmoney.com/" target="_blank">首页</a>
+                
+                    &gt;
+                    <a href="http://stock.eastmoney.com/" target="_blank">股票频道</a>
+                &gt;
+                        <a href="http://stock.eastmoney.com/shichang.html" target="_blank">市场</a>
+                    &gt;
+                <a href="http://stock.eastmoney.com/a/cdpfx.html" target="_blank">大盘分析</a>
+                &gt;
+                <span>列表</span>
+            </div>
+        </div>
+        <div class="repeatList">
+            <ul id="newsListContent">
+    <li id="newsTr0">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://stock.eastmoney.com/a/20181101975105867.html" target="_blank">
+                    李大霄：中国股市将迎来健康稳定发展新阶段
+                </a>
+            </p>
+
+                <p class="info" title="【李大霄：中国股市将迎来健康稳定发展新阶段】英大证券首席经济学家李大霄分析指出，这是对资本市场发展的重要指示，中国资本市场总值与国民经济总量比例相对偏低，未来发展空间巨大，资本市场改革潜力巨大，激发市场活力的要求明确，推动长期资本入市措施将进一步落实，中国股市将会迎来健康稳定发展新阶段。属重大利好消息，特别鼓舞人心。">
+                    【李大霄：中国股市将迎来健康稳定发展新阶段】英大证券首席经济学家李大霄分析指出，这是对资本市场发展的重要指示，中国资本市场总值与国民经济总量比例相对偏低，未来发展空间巨大，资本市场改革潜力巨大，激发市...
+                </p>
+            <p class="time">
+                11月01日 09:59
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://stock.eastmoney.com/a/20181101975105867.html',text:'李大霄：中国股市将迎来健康稳定发展新阶段'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr1">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://stock.eastmoney.com/a/20181101975102018.html" target="_blank">
+                    国信策略：历史数据显示A股11月上涨概率较大
+                </a>
+            </p>
+
+                <p class="info" title="【国信策略：历史数据显示A股11月上涨概率较大】回顾历史数据，A股市场中也存在较为显著的“日历效应”，但并非“一月效应”，从“月份效应”的角度来看，A股2月和11月的上涨概率最大。自2000年至2017年共18年中，上证综指二月份上涨概率达到77.8%，远高于其他月份，各年度二月份涨幅方差相比其他月份也是最低。上涨概率其次高的就是11月，从2000年至2017年上证综指在11月上涨的概率有67%。">
+                    【国信策略：历史数据显示A股11月上涨概率较大】回顾历史数据，A股市场中也存在较为显著的“日历效应”，但并非“一月效应”，从“月份效应”的角度来看，A股2月和11月的上涨概率最大。自2000年至201...
+                </p>
+            <p class="time">
+                11月01日 09:56
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://stock.eastmoney.com/a/20181101975102018.html',text:'国信策略：历史数据显示A股11月上涨概率较大'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr2">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://stock.eastmoney.com/a/20181101975082534.html" target="_blank">
+                    A股政策利好接踵而至 创业板指盘中大涨近2%！11月市场有望开门红
+                </a>
+            </p>
+
+                <p class="info" title="【A股政策利好接踵而至 创业板指盘中大涨近2%！11月市场有望开门红】展望11月，分析认为随着一系列利好政策的落地，股权质押风险等杠杆因素将得到逐步化解，随着内外部风险因素的消化，A股可望迎来一波反弹。">
+                    【A股政策利好接踵而至 创业板指盘中大涨近2%！11月市场有望开门红】展望11月，分析认为随着一系列利好政策的落地，股权质押风险等杠杆因素将得到逐步化解，随着内外部风险因素的消化，A股可望迎来一波反弹...
+                </p>
+            <p class="time">
+                11月01日 09:39
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://stock.eastmoney.com/a/20181101975082534.html',text:'A股政策利好接踵而至 创业板指盘中大涨近2%！11月市场有望开门红'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr3">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://stock.eastmoney.com/a/20181101975038976.html" target="_blank">
+                    晨会精华：政策底基本明确 市场底仍需等待
+                </a>
+            </p>
+
+                <p class="info" title="周三(10月31日)，沪深两市小幅高开，水泥、稀土板块迅速走强，盘中中字头带领大基建板块冲高带动指数拉升；午后沪指在资源股的猛攻下顺利站上2600点。截至收盘，上证综指收涨1.35%报2602.78点，深证成指涨1.46%报7482.83点，创业板指涨1.24%报1275.57点。两市全天成交逾3148.75亿元，与上日同期成交(3109.55亿元)量能持平。">
+                    周三(10月31日)，沪深两市小幅高开，水泥、稀土板块迅速走强，盘中中字头带领大基建板块冲高带动指数拉升；午后沪指在资源股的猛攻下顺利站上2600点。截至收盘，上证综指收涨1.35%报2602.78点...
+                </p>
+            <p class="time">
+                11月01日 09:28
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://stock.eastmoney.com/a/20181101975038976.html',text:'晨会精华：政策底基本明确 市场底仍需等待'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr4">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101975022496.html" target="_blank">
+                    10月行情如“过山车” 你的股票池有这些反弹“先锋”吗？
+                </a>
+            </p>
+
+                <p class="info" title="10月31日，上证指数不仅重返2600点，并以上涨1.35%为10月行情画上完美句号，大幅提升市场信心。不过，回过头来看，今年10月，A股的走势犹如“过山车”，前期跌破熔断底并创出新低，随后则在券商股等带领下迎来强势反弹，最终重返2600点。">
+                    10月31日，上证指数不仅重返2600点，并以上涨1.35%为10月行情画上完美句号，大幅提升市场信心。不过，回过头来看，今年10月，A股的走势犹如“过山车”，前期跌破熔断底并创出新低，随后则在券商股...
+                </p>
+            <p class="time">
+                11月01日 09:11
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101975022496.html',text:'10月行情如“过山车” 你的股票池有这些反弹“先锋”吗？'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr5">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://stock.eastmoney.com/a/20181101975017665.html" target="_blank">
+                    巨丰投顾：重磅利好将促A股长线走强
+                </a>
+            </p>
+
+                <p class="info" title="【巨丰投顾：重磅利好将促A股长线走强】北上资金大规模进场，净流入60亿，但市场总体量能仍未释放出来，预计大盘将构筑震荡箱体。另外，政治局会议传递稳定市场信号，加之长线资金入市利于A股走好。操作上，短线建议重点跟踪流动性充裕的超跌股，规避高质押，高两融比例的个股；静待市场做出风格转变。">
+                    【巨丰投顾：重磅利好将促A股长线走强】北上资金大规模进场，净流入60亿，但市场总体量能仍未释放出来，预计大盘将构筑震荡箱体。另外，政治局会议传递稳定市场信号，加之长线资金入市利于A股走好。操作上，短线...
+                </p>
+            <p class="time">
+                11月01日 08:53
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://stock.eastmoney.com/a/20181101975017665.html',text:'巨丰投顾：重磅利好将促A股长线走强'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr6">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://stock.eastmoney.com/a/20181101974968744.html" target="_blank">
+                    本月有望展开一波反弹 但要留意3个重要时间节点
+                </a>
+            </p>
+
+                <p class="info" title="在10月的最后一天，大盘走出小幅反弹，收在2602，月线收出带下影线的中阴，深成指和创业板月线则连收7阴(这是历史上首次)。从月线看短线有止跌回稳迹象；从日线看，周三大盘反弹接近20天线后回落，短线仍有上冲动能。但上方20天线和30天线还是重压区，后面大概率会在2600-2500反复震荡，再寻求突破。展望11月市场有望展开一波反弹，操作上注意板块轮动节奏，择机卖高调低。">
+                    在10月的最后一天，大盘走出小幅反弹，收在2602，月线收出带下影线的中阴，深成指和创业板月线则连收7阴(这是历史上首次)。从月线看短线有止跌回稳迹象；从日线看，周三大盘反弹接近20天线后回落，短线仍...
+                </p>
+            <p class="time">
+                11月01日 08:29
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://stock.eastmoney.com/a/20181101974968744.html',text:'本月有望展开一波反弹 但要留意3个重要时间节点'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr7">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101974965091.html" target="_blank">
+                    四大券商11月投资策略：底部修复行情有望实现 三方面值得重点关注
+                </a>
+            </p>
+
+                <p class="info" title="【四大券商11月投资策略：底部修复行情有望实现 三方面值得重点关注】展望11月行情，有三点值得重点关注：一是“救市”政策能否真正有效降低股权质押风险压力，实现金融风险。预计11月份上证综指继续以震荡调整为主，在有效化解风险的条件下指数中枢有望上攻至2700点附近，大小盘表现将趋于平衡。建议短期可以关注区域建设、化解风险等政策焦点，中线可以继续看好大金融和周期等板块，长线继续推荐关注成长价值板块、国企改革和知识产权概念等。(大众证券报)">
+                    【四大券商11月投资策略：底部修复行情有望实现 三方面值得重点关注】展望11月行情，有三点值得重点关注：一是“救市”政策能否真正有效降低股权质押风险压力，实现金融风险。预计11月份上证综指继续以震荡调...
+                </p>
+            <p class="time">
+                11月01日 08:03
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101974965091.html',text:'四大券商11月投资策略：底部修复行情有望实现 三方面值得重点关注'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr8">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://stock.eastmoney.com/a/20181101974960943.html" target="_blank">
+                    又一历史记录诞生！创业板7连阴 这家公司更是连跌14月
+                </a>
+            </p>
+
+                <p class="info" title="【又一历史记录诞生！创业板7连阴 这家公司更是连跌14月】创业板指月K线自4月份至今，已连续7个月收阴线，创出A股史上最长连阴记录。当然，不仅仅是创业板指，深成指自4月份至今，同样走出月K线7连阴的行情，一举打破深成指创立初期的月K线6连阴的记录。">
+                    【又一历史记录诞生！创业板7连阴 这家公司更是连跌14月】创业板指月K线自4月份至今，已连续7个月收阴线，创出A股史上最长连阴记录。当然，不仅仅是创业板指，深成指自4月份至今，同样走出月K线7连阴的行...
+                </p>
+            <p class="time">
+                11月01日 07:46
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://stock.eastmoney.com/a/20181101974960943.html',text:'又一历史记录诞生！创业板7连阴 这家公司更是连跌14月'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr9">
+            <!--图-->
+            <div class="image">
+                <a target="_blank" href="http://stock.eastmoney.com/a/20181101974960234.html">
+                    <img src="https://z1.dfcfw.com/2018/11/1/20181101075750451196729.jpg" />
+                </a>
+            </div>
+        <!--文-->
+        <div class="text">
+            <p class="title">
+                <a href="http://stock.eastmoney.com/a/20181101974960234.html" target="_blank">
+                    4千亿养老金准备买买买！Q3逾半重仓股 抱团社保基金
+                </a>
+            </p>
+
+                <p class="info" title="【4千亿养老金准备买买买！Q3逾半重仓股 抱团社保基金】10月31日人社部召开2018年第三季度新闻发布会。发布会上人社部透露，截至9月底，共15个省市政府与社保基金理事会签署委托投资合同，合同总金额7150亿元，其中4166.5亿元资金已到账并开始投资。">
+                    【4千亿养老金准备买买买！Q3逾半重仓股 抱团社保基金】10月31日人社部召开2018年第三季度新闻发布会。发布会上人社部透露，截至9月底，共15个省市政府与社...
+                </p>
+            <p class="time">
+                11月01日 07:44
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://stock.eastmoney.com/a/20181101974960234.html',text:'4千亿养老金准备买买买！Q3逾半重仓股 抱团社保基金'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr10">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101974960125.html" target="_blank">
+                    政治局定调经济新形势 几大信号确认“政策底”
+                </a>
+            </p>
+
+                <p class="info" title="【政治局定调经济新形势 几大信号确认“政策底”】会议指出，当前经济运行稳中有变，经济下行压力有所加大，部分企业经营困难较多，长期积累的风险隐患有所暴露。对此要高度重视，增强预见性，及时采取对策。(中国经营报)">
+                    【政治局定调经济新形势 几大信号确认“政策底”】会议指出，当前经济运行稳中有变，经济下行压力有所加大，部分企业经营困难较多，长期积累的风险隐患有所暴露。对此要高度重视，增强预见性，及时采取对策。(中国...
+                </p>
+            <p class="time">
+                11月01日 07:41
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101974960125.html',text:'政治局定调经济新形势 几大信号确认“政策底”'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr11">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101974897094.html" target="_blank">
+                    中长期资金入场 4000亿养老金初试锋芒
+                </a>
+            </p>
+
+                <p class="info">
+                    【中长期资金入场 4000亿养老金初试锋芒】伴随着证监会持续喊话将引入中长期资金，近两年监管层力推的养老金也在三季度开始了正式的投资布局。(21世纪经济报道)
+                </p>
+            <p class="time">
+                11月01日 06:27
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101974897094.html',text:'中长期资金入场 4000亿养老金初试锋芒'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr12">
+            <!--图-->
+            <div class="image">
+                <a target="_blank" href="http://finance.eastmoney.com/a/20181031974834687.html">
+                    <img src="https://z1.dfcfw.com/2018/11/1/201811010541511240565016.jpg" />
+                </a>
+            </div>
+        <!--文-->
+        <div class="text">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181031974834687.html" target="_blank">
+                    A股再迎长线资金：4167亿养老金已开始投资 千亿职业年金入市在即
+                </a>
+            </p>
+
+                <p class="info" title="【A股再迎长线资金：4167亿养老金已开始投资 千亿职业年金入市在即】养老保险基金4166.5亿元资金已经到账并开始投资。职业年金方面，机构人士预计，从存量角度看，从2014年10月1日至今，职业年金存量规模或近7000亿元；从增量角度看，由于职业年金基金缴费是刚性支付，以后每年新增缴费约1500亿元左右。（中国证券报）">
+                    【A股再迎长线资金：4167亿养老金已开始投资 千亿职业年金入市在即】养老保险基金4166.5亿元资金已经到账并开始投资。职业年金方面，机构人士预计，从存量角度...
+                </p>
+            <p class="time">
+                11月01日 03:25
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181031974834687.html',text:'A股再迎长线资金：4167亿养老金已开始投资 千亿职业年金入市在即'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr13">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101974886083.html" target="_blank">
+                    量能持续放大 双底雏形渐显
+                </a>
+            </p>
+
+                <p class="info" title="周三，A股早盘小幅高开后出现短暂犹豫，但9:48分后指数再现较强上扬，收复了2600点，上证指数收盘2602.78点，上涨34.73点，涨幅1.35%；创业板指数涨幅1.24%；中小板指数涨幅1.54%；上证50指数涨幅1.47%。从指数走势观察，几大指数走势较为一致，均呈现波段式温和上扬格局。虽然涨幅不够大，但是，个股涨跌比例大幅提升，涨跌比例高达8:1，绝大多数个股上涨。">
+                    周三，A股早盘小幅高开后出现短暂犹豫，但9:48分后指数再现较强上扬，收复了2600点，上证指数收盘2602.78点，上涨34.73点，涨幅1.35%；创业板指数涨幅1.24%；中小板指数涨幅1.54...
+                </p>
+            <p class="time">
+                11月01日 05:37
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101974886083.html',text:'量能持续放大 双底雏形渐显'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr14">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101974885897.html" target="_blank">
+                    迎接一根带量长阳向上突破
+                </a>
+            </p>
+
+                <p class="info" title="10月份最后一个交易日上证指数收盘2602.78点，上涨34.73点，涨幅1.35%，成交额1548.95亿元。从盘面上人气倾向及板块动向条件比较，涨幅仅仅只有1.35%算是偏少的涨幅结果。87个板块上涨的有84个，下跌才3个，这是绝对值的上涨特征倾向，涨幅达到1%有65个，是明确的绝对偏向当然是绝对涨势，指数收红上涨是必然演变，涨幅大小才是关键。">
+                    10月份最后一个交易日上证指数收盘2602.78点，上涨34.73点，涨幅1.35%，成交额1548.95亿元。从盘面上人气倾向及板块动向条件比较，涨幅仅仅只有1.35%算是偏少的涨幅结果。87个板块...
+                </p>
+            <p class="time">
+                11月01日 05:37
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101974885897.html',text:'迎接一根带量长阳向上突破'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr15">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101974885452.html" target="_blank">
+                    创业板月线七连阴 关注科技成长股
+                </a>
+            </p>
+
+                <p class="info" title="周三(10月31日)市场延续反弹态势，上证指数全天震荡走高重新站上2600点，收盘上涨1.35%报2602点；创业板指数上攻20日线，收盘上涨1.24%报1275点。两市合计成交3149亿元，行业板块呈现普涨态势，稀土永磁、食品饮料等板块领涨，券商板块出现回调。个股再现普涨走势，两市近70只个股涨停。盘面上，市场炒作情绪有所复苏，板块轮动效应明显。">
+                    周三(10月31日)市场延续反弹态势，上证指数全天震荡走高重新站上2600点，收盘上涨1.35%报2602点；创业板指数上攻20日线，收盘上涨1.24%报1275点。两市合计成交3149亿元，行业板块...
+                </p>
+            <p class="time">
+                11月01日 05:37
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101974885452.html',text:'创业板月线七连阴 关注科技成长股'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr16">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101974885274.html" target="_blank">
+                    利好一个接一个 11月有望开门红
+                </a>
+            </p>
+
+                <p class="info" title="【利好一个接一个 11月有望开门红】展望11月，西南证券高级策略分析师朱斌认为，随着三季报全部披露完毕，下一次的业绩大披露要等到明年4月，因此在当前政策底逐渐显现的情况下，这段时间内不会再有新的业绩数据对市场造成冲击，11月份大盘持续反弹的概率较高。(投资快报)">
+                    【利好一个接一个 11月有望开门红】展望11月，西南证券高级策略分析师朱斌认为，随着三季报全部披露完毕，下一次的业绩大披露要等到明年4月，因此在当前政策底逐渐显现的情况下，这段时间内不会再有新的业绩数...
+                </p>
+            <p class="time">
+                11月01日 05:37
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101974885274.html',text:'利好一个接一个 11月有望开门红'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr17">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101974826379.html" target="_blank">
+                    A股市场底基本探明 更需“风物长宜放眼量”
+                </a>
+            </p>
+
+                <p class="info" title="【A股市场底基本探明 更需“风物长宜放眼量”】在长线资金的带动下，投资者的情绪会逐渐从恐慌恢复到正常状态，市场底也就会慢慢构筑起来了。暴涨暴跌的股票市场是监管层所深恶痛绝的，也是投资者不喜欢的。因此，投资者要摒弃在A股市场攫取暴利的想法，坚持价值投资、理性投资和长线投资，分享中国经济中高速成长带来的红利。“风物长宜放眼量”，这是所有A股市场参与者都应该抱有的基本理念。（证券日报）">
+                    【A股市场底基本探明 更需“风物长宜放眼量”】在长线资金的带动下，投资者的情绪会逐渐从恐慌恢复到正常状态，市场底也就会慢慢构筑起来了。暴涨暴跌的股票市场是监管层所深恶痛绝的，也是投资者不喜欢的。因此，...
+                </p>
+            <p class="time">
+                11月01日 05:26
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101974826379.html',text:'A股市场底基本探明 更需“风物长宜放眼量”'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr18">
+            <!--图-->
+            <div class="image">
+                <a target="_blank" href="http://finance.eastmoney.com/a/20181101974867731.html">
+                    <img src="https://z1.dfcfw.com/2018/11/1/20181101081750963177097.jpg" />
+                </a>
+            </div>
+        <!--文-->
+        <div class="text">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101974867731.html" target="_blank">
+                    郑眼看盘：季报雷阵已过 A股全线上涨
+                </a>
+            </p>
+
+                <p class="info" title="周三A股全线上涨，上证综指涨1.35%至2602.78点，深证综指涨1.39%至1294.22点，其余股指涨幅相差不多。权重中的大金融有所走软，一些中字头的基建股大涨。此外，海天味业、水井坊、通化东宝等前期大幅杀跌的消费股、医药股大幅反弹，贵州茅台也回升了4.75%。周二证监会曾表示，将减少对交易环节的不必要干预，周三对此又作了补充说明，重点是点明这并不意味着纵容坐庄行为。">
+                    周三A股全线上涨，上证综指涨1.35%至2602.78点，深证综指涨1.39%至1294.22点，其余股指涨幅相差不多。权重中的大金融有所走软，一些中字头的基建...
+                </p>
+            <p class="time">
+                11月01日 05:03
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101974867731.html',text:'郑眼看盘：季报雷阵已过 A股全线上涨'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+    <li id="newsTr19">
+        <!--文-->
+        <div class="text text-no-img">
+            <p class="title">
+                <a href="http://finance.eastmoney.com/a/20181101974835126.html" target="_blank">
+                    风险偏好修复 反弹渐入佳境
+                </a>
+            </p>
+
+                <p class="info" title="【风险偏好修复 反弹渐入佳境】昨日，两市全线回升。更为可喜的是，数据显示，当前位置场内外资金正重新聚集起看多做多后市的共识。分析人士表示，当前市场再度回升背后最重要的原因就来自于场内外资金再度积聚起对于市场的某种共识。在中期维度下，无论是宏观角度的基本面和资金面，还是微观角度资金调仓以及对估值的担忧都有所消退。种种迹象表明，虽然底部区域仍难免震荡，但目前已是介入的机会。未来要等待的就是政策效应的逐步显现以及经济预期和市场风险偏好的逐步修复，因而投资者不必太过悲观，A股中长期配置价值正逐渐开始显现。（中国证券报）">
+                    【风险偏好修复 反弹渐入佳境】昨日，两市全线回升。更为可喜的是，数据显示，当前位置场内外资金正重新聚集起看多做多后市的共识。分析人士表示，当前市场再度回升背后最重要的原因就来自于场内外资金再度积聚起对...
+                </p>
+            <p class="time">
+                11月01日 01:39
+            </p>
+        </div>
+        <!--分享-->
+        <!--
+        <div class="share">
+            <span class="shareIco"></span>
+            <div class="shareContent">
+                <div id='bdshare' class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://finance.eastmoney.com/a/20181101974835126.html',text:'风险偏好修复 反弹渐入佳境'}">
+                    <a class="bds_iguba" title="分享到股吧"></a>
+                    <a class="bds_tsina" title="分享到新浪微博"></a>
+                    <a class="bds_qzone" title="分享到QQ空间"></a>
+                    <a class="bds_tqq" title="分享到腾讯微博"></a>
+                </div>
+            </div>
+        </div>
+        -->
+    </li>
+
+
+
+
+            </ul>
+            <div class="pagerbox">
+                <div id="pagerNoDiv" class="pager">
+                    <span>1</span><a href="cdpfx_2.html" target="_self">2</a><a href="cdpfx_3.html" target="_self">3</a><a href="cdpfx_3.html" target="_self">...</a><a href="cdpfx_25.html" target="_self">25</a><a href="cdpfx_2.html" target="_self" class="page-btn">下一页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--右侧-->
+    <div class="gr w290 pl10">
+
+
+<iframe width="280" height="280" src="http://same.eastmoney.com/s?z=eastmoney&amp;c=1247&amp;op=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+
+<div id="hqzx" class="Hqzx clearfix">
+    <div class="titlebar">
+        <h2><a target="_blank" href="http://quote.eastmoney.com/center/">行情中心</a></h2>
+        <div class="more">
+            <a id="refbtn_stock" class="btn-refresh" href="javascript:void(0);" target="_self">刷新</a>
+            <span>|</span>
+            <a target="_blank" href="http://quote.eastmoney.com/center/">更多</a>
+        </div>
+    </div>
+    <div class="stockCenter">
+        <div class="sc-tabs">
+            <dl id="stockTabs">
+                <dt id="CSI"><a>沪深</a></dt>
+                <dt id="HK"><a>香港</a></dt>
+                <dt id="OCCIDENT"><a>欧美</a></dt>
+                <dt id="FUND"><a>基金</a></dt>
+                <dt id="FUTURES"><a>期货</a></dt>
+                <dt id="FOREX"><a>外汇</a></dt>
+            </dl>
+        </div>
+        <div class="sc-cont" id="stockContent">
+            <div id="hq_CSI">
+                <dl class="sc-cont-tabs">
+                    <dt class="at"><span><a href="http://quote.eastmoney.com/zs000001.html">沪A</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/zs399001.html">深A</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/zs399006.html">创业板</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/zs000300.html">300</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/sz300059.html">东方财富</a></span></dt>
+                </dl>
+                <div class="sc-cont-img">
+                    <!--<a target="_blank" class="piclink" href="http://quote.eastmoney.com/zs000001.html" hidefocus="true">
+                        <img src="http://hqpiczs.dfcfw.com/em_quote2010pictureproducter/picture/0000011rsindex.png?r=1412055917121" height="123" width="220">
+                    </a>-->
+                </div>
+                <ul class="sc-cont-imglink">
+                    <!--<li><a href="http://quote.eastmoney.com/center/list.html#10">涨幅</a></li>
+                        <li><a href="http://quote.eastmoney.com/center/list.html#10?sortType=H&amp;sortRule=-1">量比</a></li>
+                        <li><a href="http://quote.eastmoney.com/center/list.html#10?sortType=J&amp;sortRule=-1">换手</a></li>
+                        <li><a href="http://quote.eastmoney.com/center/list.html#10?sortType=I&amp;sortRule=-1">市盈</a></li>-->
+                </ul>
+            </div>
+            <div id="hq_HK" style="display: none;">
+                <dl class="sc-cont-tabs">
+                    <dt class="at"><span><a href="http://quote.eastmoney.com/hk/zs110000.html">恒生</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/hk/zs110030.html">红筹</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/hk/zs110010.html">国企</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/hk/zs110050.html">创业板</a></span></dt>
+                </dl>
+                <div class="sc-cont-img"></div>
+                <ul class="sc-cont-imglink"></ul>
+            </div>
+            <div id="hq_OCCIDENT" style="display: none;">
+                <dl class="sc-cont-tabs">
+                    <dt class="at"><span><a href="http://quote.eastmoney.com/gb/zsindu.html">道琼斯</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/gb/zsCCMP.html">纳斯达克</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/gb/zsUKX.html">英国FT</a></span></dt>
+                </dl>
+                <div class="sc-cont-img"></div>
+                <ul class="sc-cont-imglink"></ul>
+            </div>
+            <div id="hq_FUND" style="display: none;">
+                <dl class="sc-cont-tabs">
+                    <dt class="at"><span><a href="http://quote.eastmoney.com/zs000011.html">沪基</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/zs399305.html">深基</a></span></dt>
+                </dl>
+                <div class="sc-cont-img"></div>
+                <ul class="sc-cont-imglink"></ul>
+            </div>
+            <div id="hq_FUTURES" style="display: none;">
+                <dl class="sc-cont-tabs">
+                    <dt class="at"><span><a href="http://quote.eastmoney.com/gzqh/IFdylx.html">股指期货</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/gzqh/TFGZDJ.html">国债期货</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/qihuo/CONC.html">美原油</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/qihuo/GLNC.html">美黄金</a></span></dt>
+                </dl>
+                <div class="sc-cont-img"></div>
+                <ul class="sc-cont-imglink"></ul>
+            </div>
+            <div id="hq_FOREX" style="display: none;">
+                <dl class="sc-cont-tabs">
+                    <dt class="at"><span><a href="http://quote.eastmoney.com/qihuo/DINI.html">美元</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/forex/EURUSD.html">欧元</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/forex/GBPUSD.html">英镑</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/forex/USDJPY.html">日元</a></span></dt>
+                    <dd>|</dd>
+                    <dt><span><a href="http://quote.eastmoney.com/forex/USDCNY.html">人民币</a></span></dt>
+                </dl>
+                <div class="sc-cont-img"></div>
+                <ul class="sc-cont-imglink"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<input id="hqzx_tabId" data-hqzx-id1="" data-hqzx-id2="" type="hidden" />
+<div class="clear"></div>
+
+<div class="sc-search clearfix StockCode_bar_sm_list">
+    <form id="sofrm_sm" method="get" action="" style="z-index:800;">
+        <input type="text" maxlength="40" class="inp-txt" name="StockCode_bar_sm_list" id="StockCode_bar_sm_list" autocomplete="off" />
+        <input type="submit" class="btnNew" value="搜索" />
+    </form>
+</div>
+
+    <div class="Wydj clearfix">
+        <div class="titlebar">
+            <h2>
+                     网友点击排行榜
+            </h2>
+        </div>
+        <div class="tabList pt5 pb5 bg_sblue clearfix">
+            <ul class="h28 fn">
+                        <li><span class="no">1</span> <a target="_blank" href="http://finance.eastmoney.com/a/20181031974620763.html">10月31日晚间上市公司利好消息一览（附名单）</a></li>
+                        <li><span class="no">2</span> <a target="_blank" href="http://stock.eastmoney.com/a/20181031974568381.html">明日股市三大猜想：十一月行情值得期待 市场预计将渐进式反弹</a></li>
+                        <li><span class="no">3</span> <a target="_blank" href="http://finance.eastmoney.com/a/20181031974527916.html">机构论市：新热点给市场带来新生命力 11月重点关注两大要点</a></li>
+                        <li><span class="no">4</span> <a target="_blank" href="http://finance.eastmoney.com/a/20181031974250618.html">阿里腾讯比惨 股价重挫市值缩水30000亿！马云刚刚公开发声！</a></li>
+                        <li><span class="no">5</span> <a target="_blank" href="http://stock.eastmoney.com/a/20181101974960943.html">又一历史记录诞生！创业板7连阴 这家公司更是连跌14月</a></li>
+                        <li><span class="no">6</span> <a target="_blank" href="http://stock.eastmoney.com/a/20181031974519437.html">巨景投顾：收官之战多板块集体爆发 十一月或迎多方强势反攻</a></li>
+                        <li><span class="no">7</span> <a target="_blank" href="http://finance.eastmoney.com/a/20181031974505420.html">沪指收盘涨逾1%收复2600点 有色金属板块领涨金融股回调</a></li>
+                        <li><span class="no">8</span> <a target="_blank" href="http://stock.eastmoney.com/a/20181031974610321.html">(10/31)晚间沪深上市公司重大事项公告最新快递</a></li>
+                        <li><span class="no">9</span> <a target="_blank" href="http://finance.eastmoney.com/a/20181031974378751.html">4167亿养老金到账并开始投资！三季报透露养老金最新动态 新进24股</a></li>
+                        <li><span class="no">10</span> <a target="_blank" href="http://stock.eastmoney.com/a/20181031974367463.html">A股沸腾！人社部传来大消息：4000多亿养老金到账开始投资 最新重仓股在此！</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+<div class="Cjsp">
+    <div class="wNews">
+        <div class="titleTop">
+            <div class="title2Name">
+                <a target="_blank" href="http://video.eastmoney.com/" class="titA">财经视频</a>
+            </div>
+            <div class="more">
+                <a target="_blank" href="http://video.eastmoney.com/">更多</a>
+            </div>
+        </div>
+        <div class="content" style="width: 280px; height: 153px; margin-top: 15px; float: left; border-bottom: 1px solid #BBD4E8;">
+            <div class="rollbox">
+                <div class="roll">
+                    <div class="rollimglist">
+                        <ul>
+<li><img alt="财富观察：华宝基金黄小薏采访" width="191" height="107"src="https://z1.dfcfw.com/2018/10/26/20181026170043918366201.jpg"ilink="http://video.eastmoney.com/a/20181026971409132.html" iinfo="财富观察：华宝基金黄小薏采访" /></li><li><img alt="财富观察：选择老司机中的常胜将军领航" width="191" height="107"src="https://z1.dfcfw.com/2018/10/24/201810241116501275265172.jpg"ilink="http://video.eastmoney.com/a/20181024969175080.html" iinfo="财富观察：选择老司机中的常胜将军领航" /></li><li><img alt="财富观察：基金业下半场三类公司将突围" width="191" height="107"src="https://z1.dfcfw.com/2018/10/16/20181016122542341605316.jpg"ilink="http://video.eastmoney.com/a/20181016962606161.html" iinfo="财富观察：基金业下半场三类公司将突围" /></li>                        </ul>
+                        <div class="rollicon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fNewsList">
+<li><a target="_blank" href="http://video.eastmoney.com/a/20181008956373148.html">财富观察：期权的风险管理功能如何发挥</a></li><li><a target="_blank" href="http://video.eastmoney.com/a/20180926952457161.html">财富观察：应对弱势有绝招</a></li>    </div>
+</div>
+
+
+<div class="Zt">
+    <div class="wNews">
+        <div class="titleTop">
+            <div class="title2Name">
+                <a target="_blank" href="http://topic.eastmoney.com/" class="titA">专题</a>
+            </div>
+            <div class="more">
+                <a target="_blank" href="http://topic.eastmoney.com/">更多</a>
+            </div>
+        </div>
+        <div class="bg_sblue clear clearfix">
+            <div class="content topic">
+                <ul><li><span>10月24日</span>&nbsp;<a  target="_blank" href="http://topic.eastmoney.com/hnsyh/" >汉能宣布私有化 拟回A股上市</a></li><li><span>10月20日</span>&nbsp;<a  target="_blank" href="http://topic.eastmoney.com/GSZXFJKC/" >个税专项附加扣除暂行办法落地</a></li><li><span>10月19日</span>&nbsp;<a  target="_blank" href="http://topic.eastmoney.com/jgcww/" >监管层齐喊话维稳股市</a></li><li><span>10月16日</span>&nbsp;<a  target="_blank" href="http://topic.eastmoney.com/hnzmq/" >国务院印发海南自贸区总体方案</a></li><li><span>10月16日</span>&nbsp;<a  target="_blank" href="http://topic.eastmoney.com/gaigkf/" >聚焦改革开放40年</a></li><li><span>10月15日</span>&nbsp;<a  target="_blank" href="http://topic.eastmoney.com/ssgssjb/" >聚焦2018上市公司三季报</a></li></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="Pljh clearfix">
+    <div class="wNews">
+        <div class="titleTop">
+            <div class="title2Name">
+                <a target="_blank" href="http://finance.eastmoney.com/pinglun.html" class="titA">评论精华</a>
+            </div>
+            <div class="more">
+                <a target="_blank" href="http://finance.eastmoney.com/pinglun.html">更多</a>
+            </div>
+        </div>
+        <div class="bg_sblue clear clearfix">
+            <div class="artitleList">
+                <ul>
+                            <li class=&quot;borderTop&quot;>
+                                <div class="img">
+                                    <img src="https://z1.dfcfw.com/2018/11/1/20181101084456570428169.jpg" />
+                                </div>
+                                <div class="title">
+                                    <a target="_blank" href="http://finance.eastmoney.com/a/20181101974970462.html">中信建投：资本金约束逐步解除 超配大金融(附11月金股)</a>
+                                </div>
+                            </li>
+                            <li >
+                                <div class="img">
+                                    <img src="https://z1.dfcfw.com/2018/11/1/201811010842301852233485.jpg" />
+                                </div>
+                                <div class="title">
+                                    <a target="_blank" href="http://finance.eastmoney.com/a/20181101974970337.html">安信证券陈果：A股不应过度悲观 短期存在较大的反弹可能（附11月金股）</a>
+                                </div>
+                            </li>
+                            <li >
+                                <div class="img">
+                                    <img src="https://z1.dfcfw.com/2018/11/1/201811010837221324309284.jpg" />
+                                </div>
+                                <div class="title">
+                                    <a target="_blank" href="http://finance.eastmoney.com/a/20181101974969140.html">郭施亮：强调激发资本市场活力 A股的市场底部得到确立了吗？</a>
+                                </div>
+                            </li>
+                            <li >
+                                <div class="img">
+                                    <img src="https://z1.dfcfw.com/2018/11/1/201811010832341677033617.jpg" />
+                                </div>
+                                <div class="title">
+                                    <a target="_blank" href="http://finance.eastmoney.com/a/20181101974968641.html">华泰证券：A股市场具有配置价值 建议关注银行板块（附11月金股）</a>
+                                </div>
+                            </li>
+                            <li >
+                                <div class="img">
+                                    <img src="https://z1.dfcfw.com/2018/11/1/201811010827361260276184.jpg" />
+                                </div>
+                                <div class="title">
+                                    <a target="_blank" href="http://finance.eastmoney.com/a/20181101974968369.html">徐彪：创业板指的盈利与估值渐趋匹配 市场底部该配置什么</a>
+                                </div>
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="Ywjh clearfix">
+    <div class="wNews">
+        <div class="titleTop">
+            <div class="title2Name">
+                <a target="_blank" href="http://finance.eastmoney.com/yaowen.html" class="titA">要闻精华</a>
+            </div>
+            <div class="more">
+                <a target="_blank" href="http://finance.eastmoney.com/yaowen.html">更多</a>
+            </div>
+        </div>
+
+        <div class="bg_sblue clear clearfix">
+            <div class="artitleList">
+                <ul>
+                            <li class=&quot;borderTop&quot;>
+                                <div class="img">
+                                    <img src="https://z1.dfcfw.com/2018/11/1/201811010950321926373950.jpg" />
+                                </div>
+                                <div class="title">
+                                    <a target="_blank" href="http://finance.eastmoney.com/a/20181101975082966.html">印花税法征求意见稿发布：证券交易印花税率保持不变 税率调整由国务院决定</a>
+                                </div>
+                            </li>
+                            <li >
+                                <div class="img">
+                                    <img src="https://z1.dfcfw.com/2018/11/1/20181101092237758587367.jpg" />
+                                </div>
+                                <div class="title">
+                                    <a target="_blank" href="http://finance.eastmoney.com/a/20181101975026491.html">A股三大指数全线上涨：创业板指盘中站上1300点 券商股大涨</a>
+                                </div>
+                            </li>
+                            <li >
+                                <div class="img">
+                                    <img src="https://z1.dfcfw.com/2018/11/1/2018110107201859577242.jpg" />
+                                </div>
+                                <div class="title">
+                                    <a target="_blank" href="http://finance.eastmoney.com/a/20181101974902696.html">中央政治局会议：激发市场活力 促进资本市场长期健康发展</a>
+                                </div>
+                            </li>
+                            <li >
+                                <div class="img">
+                                    <img src="https://z1.dfcfw.com/2018/11/1/201811010541511240565016.jpg" />
+                                </div>
+                                <div class="title">
+                                    <a target="_blank" href="http://finance.eastmoney.com/a/20181031974834687.html">A股再迎长线资金：4167亿养老金已开始投资 千亿职业年金入市在即</a>
+                                </div>
+                            </li>
+                            <li >
+                                <div class="img">
+                                    <img src="https://z1.dfcfw.com/2018/11/1/20181101094336341504335.jpg" />
+                                </div>
+                                <div class="title">
+                                    <a target="_blank" href="http://finance.eastmoney.com/a/20181101975079326.html">10月财新中国制造业PMI为50.1% 环比微升0.1个百分点</a>
+                                </div>
+                            </li>
+                </ul>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--body-->
+
+            <div class="h20"></div>
+            <div class="mainFrame">
+                <div style="line-height: 20px;"><b>郑重声明：</b>东方财富网发布此信息目的在于传播更多信息，与本网站立场无关。东方财富网不保证该信息（包括但不限于文字、数据及图表）全部或者部分内容的准确性、真实性、完整性、有效性、及时性、原创性等。相关信息并未经过本网站证实，不对您构成任何投资建议，据此操作，风险自担。</div>
+            </div>
+            <div class="h10"></div>
+        </div>
+    </div>
+    <!--添加页脚-->
+    <!-- footer-2016 -->
+<style>
+    .footer2016 ul {list-style: none;margin: 0;padding: 0;}
+    .footer2016 a:hover{color:#ff4901 !important;text-decoration: underline !important;}
+    .footer2016 .icon, .footer2016 .navlist li a {display: inline-block;}
+    .footer2016 .icon {background-image: url(http://g1.dfcfw.com/g3/201802/20180206095814.png);background-repeat: no-repeat;}
+    .footer2016 {margin: 0 auto;clear: both;width: 1000px;line-height: 1.1;_line-height: 1.2;font-family: simsun;font-size: 12px;border-top: 2px solid #2F5895;}
+    .footer2016 .footertg {background-color: #F3F3F3;float: left;width: 100%;padding: 12px 0 0;height: 140px;}
+    .footer2016 .footertg a:link, .footer2016 .footertg a:visited {color: #676767;text-decoration: none;}
+    .footer2016 .qr {float: left;width: 80px;height: 140px;line-height: 150%;padding: 0 10px 0 8px;}
+    .footer2016 .qr .t {font-weight: 700;font-size: 14px;padding-bottom: 10px;}
+    .footer2016 .icon_qrem80, .footer2016 .icon_qrjj80 {background-image: url(http://g1.dfcfw.com/g2/201607/20160728133707.png);width: 80px;height: 80px;}
+    .footer2016 .icon_qrem80 {background-position: 0 -330px;}
+    .footer2016 .icon_emwxqr, .footer2016 .icon_jjwxqr {background-image: url(http://g1.dfcfw.com/g2/201607/20160728133707.png);width: 86px;height: 106px;}
+    .footer2016 .icon_emwxqr {background-position: -90px 0;}
+    .footer2016 .ftglist ul li.qrli {position: relative;}
+    .footer2016 .ftglist ul li.qrli:hover .icon_qr, .footer2016 .scl-news .name a {display: block;}
+    .footer2016 .icon_emwxqr, .footer2016 .icon_jjwxqr {display: none;position: absolute;left: 0;top: 24px;}
+    .footer2016 .ftglist {float: left;height: 140px;padding: 0px 10px;}
+    .footer2016 .ftglistt {font-size: 14px;font-weight: 700;line-height: 130%;padding-bottom: 6px;text-align: left;}
+    .footer2016 .ftglist ul li {padding: 5px 0;color: #676767;text-align: left;}
+    .footer2016 .icon_wb {background-position: -24px 0;width: 14px;height: 12px;}
+    .footer2016 .icon_wx {background-position: 0 0;width: 14px;height: 11px;}
+    .footer2016 .icon_note {background-position: -47px 0;width: 13px;height: 11px;}
+    .footer2016 .ftglist .icon {vertical-align: -1px;margin-right: 2px;}
+    .footer2016 .footertg a:link, .footer2016 .footertg a:visited {color: #676767;text-decoration: none;}
+    .footer2016 .qrl {border-left: 1px solid #ddd;margin-left: 10px;padding-left: 20px;}
+    .footer2016 .icon_qrjj80 {background-position: -90px -330px;}
+    .footer2016 .footercr {clear: both;text-align: center;line-height: 26px;font-size: 12px;width:1000px;margin: 0 auto;height:26px;overflow:hidden;}
+    .footer2016 .icon_icp {background-position: -24px -21px;width: 15px;height: 17px;}
+    .footer2016 .footercr .icon {vertical-align: -3px;margin-right: 2px;}
+    .footer2016 .icon_pol {background-position: 0 -22px;width: 18px;height: 20px;}
+    .footer2016 .footerlinks {background-color: #2F5895;height: 30px;text-align: center;line-height: 30px;}
+    .footer2016 .footerlinks a:link, .footer2016 .footerlinks a:visited, .footer2016 .footerlinks a:hover {color: #fff !important;text-decoration: none;margin: 0 14px;}
+    .footer2016 .footerbz {text-align: center;padding: 12px 0;}
+    .footer2016 .footerbz a {margin: 0 4px;}
+    .footer2016 .footer-police {background-position: 0 -112px;width: 110px;height: 40px;}
+    .footer2016 .footer-zx110 {background-position: -120px -113px;width: 110px;height: 40px;}
+    .footer2016 .footer-shjubao {background-position: 0 -172px;width: 110px;height: 40px;}
+    .footer2016 .footer-cxzx {background-position: -120px -174px;width: 40px;height: 40px;}
+    .footer2016 .footer-shgs {background-position: -180px -174px;width: 47px;height: 40px;}
+    .footer2016 .footer-12377 {background-position: 0 -54px;width: 186px;height: 40px;}
+    .footer2016 .footer-yhjb {background-position: 0 -229px;width: 123px;height: 40px;}
+    .footer2016 .footer-qrlast {width: 90px;}
+    .footer2016 .footer-icon-qihuoqr { background: url(http://emcharts.dfcfw.com/images/qihuoqr.png);width: 80px;height: 80px;display: inline-block;background-repeat: no-repeat;vertical-align: -5px;}
+</style>
+
+<div class="footer2016">
+    <div class="footertg">
+        <div class="qr">
+            <div class="t"><a href="http://acttg.eastmoney.com/pub/web_dfcfsy_dbtg_wzl_01_01_01_1" style="color:#000" target="_blank">东方财富</a></div>
+            <a href="http://stattg.eastmoney.com/10071" target="_blank"><em class="icon icon_qrem80"></em></a><br />扫一扫下载APP
+        </div>
+
+        <div class="ftglist">
+            <div class="ftglistt">东方财富产品</div>
+            <ul>
+                <li><a href="http://acttg.eastmoney.com/pub/web_pc_dcsy_dbcpl_01_01_01_1" target="_blank">东方财富网免费版</a></li>
+                <li><a href="http://acttg.eastmoney.com/pub/web_pc_dcsy_dbcpl_01_02_01_1" target="_blank">东方财富网Level-2</a></li>
+                <li><a href="http://js5.eastmoney.com/tg.aspx?ID=1483" target="_blank">投资大师</a></li>
+                <li><a href="http://js5.eastmoney.com/tg.aspx?ID=2749" target="_blank">Choice金融终端</a></li>
+                <li style="display: none;"><a href="http://www.langke.com/" target="_blank">浪客 - 财经视频</a></li>
+            </ul>
+        </div>
+        <div class="ftglist">
+            <div class="ftglistt">证券交易</div>
+            <ul>
+                <li><a href="http://gpkh.eastmoney.com/310100" target="_blank">东方财富证券开户</a></li>
+                <li><a href="https://jy.xzsec.com/Trade/Buy" target="_blank">东方财富在线交易</a></li>
+				<li><a href="https://acttg.eastmoney.com/pub/pctg_hskh_act_dibudfcfzq_01_01_01_0" target="_blank">东方财富证券交易</a></li>
+                <li><a href="http://www.emsec.hk/3m-Account.html" target="_blank">港美股开户</a></li>
+                <li><a href="https://jy.xzsec.com/?mode=hk" target="_blank">港美股交易 </a></li>
+            </ul>
+        </div>
+        <div class="ftglist">
+            <div class="ftglistt">关注东方财富</div>
+            <ul>
+                <li><a href="http://weibo.com/dfcfw" target="_blank"><em class="icon icon_wb"></em>东方财富网微博</a></li>
+                <li class="qrli"><a href="javascript:;" target="_self"><em class="icon icon_wx"></em>东方财富网微信</a><em class="icon icon_qr icon_emwxqr"></em></li>
+                <li><a href="http://corp.eastmoney.com/Lianxi_liuyan.asp" target="_blank"><em class="icon icon_note"></em>意见与建议</a></li>
+            </ul>
+        </div>
+        <div class="qr qrl">
+            <div class="t"><a href="http://acttg.eastmoney.com/pub/web_ttjjsy_dbtg_wzl_01_01_01_1" style="color:#000" target="_blank">天天基金</a></div>
+            <a href="http://js1.eastmoney.com/tg.aspx?ID=4672" target="_blank"><em class="icon icon_qrjj8
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1394)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1287)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:139)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:130)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:206)
+	at com.crawler.example.crawler.HangQingCrawler.process(HangQingCrawler.java:20)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-01 10:30:08 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 10:30:27 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 10:30:27 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 10:30:29 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 10:39:07 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 10:39:07 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 10:39:08 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 10:39:45 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 10:39:46 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 10:39:47 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 10:52:05 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 10:52:06 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 10:52:07 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 10:52:17 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 10:52:17 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 10:52:18 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 10:57:13 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 10:57:13 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 10:57:14 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 10:58:11 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 10:58:12 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 10:58:13 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 10:59:53 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 10:59:53 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 10:59:54 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 11:01:31 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 11:01:32 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 11:01:33 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 11:05:13 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 11:05:14 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 11:05:15 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 11:06:16 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 11:06:16 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 11:06:18 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 11:07:50 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 11:07:50 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 11:07:51 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 11:10:46 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 11:10:46 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 11:10:47 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 11:11:44 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 11:11:44 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 11:11:45 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 11:12:11 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 11:12:12 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 11:12:13 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 11:14:27 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 11:14:27 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 11:14:28 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 11:14:52 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 11:14:52 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 11:14:54 INFO [main] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-01 14:07:33 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:07:33 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:07:35 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:09:48 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:09:48 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:09:50 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:11:34 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:11:34 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:11:35 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:12:29 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:12:29 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:12:30 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:14:03 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:14:04 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:14:05 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:18:49 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:18:50 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:18:51 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:20:31 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:20:31 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:20:33 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:21:54 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:21:55 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:21:56 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:22:27 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:22:27 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:22:28 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:24:45 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:24:45 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:24:47 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:25:19 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:25:19 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:25:21 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:29:05 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:29:05 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:29:06 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975374930.html
+2018-11-01 14:33:28 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:33:28 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:33:29 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975374930.html
+2018-11-01 14:34:02 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html
+2018-11-01 14:36:09 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:36:09 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:36:11 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975374930.html
+2018-11-01 14:37:00 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:37:00 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:37:01 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975374930.html
+2018-11-01 14:39:49 INFO [main] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-01 14:39:50 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-01 14:39:51 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975374930.html
+2018-11-01 14:40:12 INFO [pool-1-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181101975282529.html

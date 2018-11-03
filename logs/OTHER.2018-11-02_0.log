@@ -1,0 +1,117 @@
+2018-11-02 14:54:12 INFO [main] c.c.e.ExampleApplication Starting ExampleApplication on SH-ZHOUCX with PID 271508 (E:\clock_pro\crawlerBoot\target\classes started by zhouchenxi in E:\clock_pro\crawlerBoot)
+2018-11-02 14:54:12 INFO [main] c.c.e.ExampleApplication The following profiles are active: postgre,kafka,redis
+2018-11-02 14:54:12 INFO [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@60975100: startup date [Fri Nov 02 14:54:12 CST 2018]; root of context hierarchy
+2018-11-02 14:54:15 INFO [main] o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 8091 (http)
+2018-11-02 14:54:15 INFO [main] o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8091"]
+2018-11-02 14:54:15 INFO [main] o.a.c.c.StandardService Starting service [Tomcat]
+2018-11-02 14:54:15 INFO [main] o.a.c.c.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-11-02 14:54:15 INFO [localhost-startStop-1] o.a.c.c.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\nodejs\;D:\maven-path\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Users\zhouchenxi.NEWERARND\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\zhouchenxi.NEWERARND\AppData\Local\Programs\Python\Python37\;C:\Users\zhouchenxi.NEWERARND\AppData\Local\Programs\Fiddler;C:\Users\zhouchenxi.NEWERARND\AppData\Roaming\npm;.]
+2018-11-02 14:54:15 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2018-11-02 14:54:15 INFO [localhost-startStop-1] o.s.w.c.ContextLoader Root WebApplicationContext: initialization completed in 2315 ms
+2018-11-02 14:54:15 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean Servlet dispatcherServlet mapped to [/]
+2018-11-02 14:54:15 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-02 14:54:15 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-02 14:54:15 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-02 14:54:15 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-02 14:54:16 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-02 14:54:16 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@60975100: startup date [Fri Nov 02 14:54:12 CST 2018]; root of context hierarchy
+2018-11-02 14:54:16 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.crawler.example.ExampleApplication.test()
+2018-11-02 14:54:16 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-02 14:54:16 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-02 14:54:16 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-02 14:54:16 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-02 14:54:16 INFO [main] o.s.j.e.a.AnnotationMBeanExporter Registering beans for JMX exposure on startup
+2018-11-02 14:54:16 INFO [main] o.s.j.e.a.AnnotationMBeanExporter Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-02 14:54:16 INFO [main] o.s.j.e.a.AnnotationMBeanExporter Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-11-02 14:54:17 INFO [main] c.c.e.u.RedisUtil redis pool init start
+2018-11-02 14:54:17 INFO [main] c.c.e.u.RedisUtil redis pool init over
+2018-11-02 14:54:17 INFO [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-02 14:54:17 INFO [main] o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-8091"]
+2018-11-02 14:54:17 INFO [main] o.a.t.u.n.NioSelectorPool Using a shared selector for servlet write/read
+2018-11-02 14:54:17 INFO [main] o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 8091 (http) with context path ''
+2018-11-02 14:54:17 INFO [main] c.c.e.ExampleApplication Started ExampleApplication in 5.32 seconds (JVM running for 7.218)
+2018-11-02 14:55:00 INFO [pool-1-thread-1] u.c.w.Spider Spider stock.eastmoney.com stop fail!
+2018-11-02 14:55:00 INFO [Thread-17] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-02 14:55:00 INFO [pool-2-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-02 14:55:39 INFO [pool-2-thread-3] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976203179.html
+2018-11-02 14:55:39 INFO [pool-2-thread-5] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976145912.html
+2018-11-02 14:55:39 INFO [pool-2-thread-2] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976306152.html
+2018-11-02 14:55:39 INFO [pool-2-thread-4] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976199780.html
+2018-11-02 14:55:40 INFO [pool-2-thread-5] c.a.d.p.DruidDataSource {dataSource-1} inited
+2018-11-02 14:55:41 INFO [pool-2-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976059851.html
+2018-11-02 14:55:45 INFO [pool-2-thread-2] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102975909773.html
+2018-11-02 14:55:45 INFO [pool-2-thread-5] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976313817.html
+2018-11-02 14:55:45 INFO [pool-2-thread-4] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102975948750.html
+2018-11-02 14:55:46 INFO [pool-2-thread-3] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975971880.html
+2018-11-02 14:55:47 INFO [pool-2-thread-4] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975850656.html
+2018-11-02 14:55:53 INFO [pool-2-thread-3] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975840885.html
+2018-11-02 14:55:53 INFO [pool-2-thread-5] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975841439.html
+2018-11-02 14:56:07 INFO [pool-1-thread-1] u.c.w.Spider Spider stock.eastmoney.com stop fail!
+2018-11-02 14:56:07 INFO [pool-2-thread-2] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975840169.html
+2018-11-02 14:56:07 INFO [Thread-19] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-02 14:56:07 INFO [pool-3-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-02 14:56:24 INFO [main] c.c.e.ExampleApplication Starting ExampleApplication on SH-ZHOUCX with PID 272188 (E:\clock_pro\crawlerBoot\target\classes started by zhouchenxi in E:\clock_pro\crawlerBoot)
+2018-11-02 14:56:24 INFO [main] c.c.e.ExampleApplication The following profiles are active: postgre,kafka,redis
+2018-11-02 14:56:24 INFO [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4febb875: startup date [Fri Nov 02 14:56:24 CST 2018]; root of context hierarchy
+2018-11-02 14:56:26 INFO [main] o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 8091 (http)
+2018-11-02 14:56:26 INFO [main] o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8091"]
+2018-11-02 14:56:26 INFO [main] o.a.c.c.StandardService Starting service [Tomcat]
+2018-11-02 14:56:26 INFO [main] o.a.c.c.StandardEngine Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-11-02 14:56:26 INFO [localhost-startStop-1] o.a.c.c.AprLifecycleListener The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\nodejs\;D:\maven-path\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Users\zhouchenxi.NEWERARND\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\zhouchenxi.NEWERARND\AppData\Local\Programs\Python\Python37\;C:\Users\zhouchenxi.NEWERARND\AppData\Local\Programs\Fiddler;C:\Users\zhouchenxi.NEWERARND\AppData\Roaming\npm;.]
+2018-11-02 14:56:26 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2018-11-02 14:56:26 INFO [localhost-startStop-1] o.s.w.c.ContextLoader Root WebApplicationContext: initialization completed in 1365 ms
+2018-11-02 14:56:26 INFO [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean Servlet dispatcherServlet mapped to [/]
+2018-11-02 14:56:26 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-02 14:56:26 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-02 14:56:26 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-02 14:56:26 INFO [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-02 14:56:27 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-02 14:56:27 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4febb875: startup date [Fri Nov 02 14:56:24 CST 2018]; root of context hierarchy
+2018-11-02 14:56:27 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.crawler.example.ExampleApplication.test()
+2018-11-02 14:56:27 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-02 14:56:27 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-02 14:56:27 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-02 14:56:27 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-02 14:56:27 INFO [main] o.s.j.e.a.AnnotationMBeanExporter Registering beans for JMX exposure on startup
+2018-11-02 14:56:27 INFO [main] o.s.j.e.a.AnnotationMBeanExporter Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-02 14:56:27 INFO [main] o.s.j.e.a.AnnotationMBeanExporter Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-11-02 14:56:27 INFO [main] c.c.e.u.RedisUtil redis pool init start
+2018-11-02 14:56:27 INFO [main] c.c.e.u.RedisUtil redis pool init over
+2018-11-02 14:56:27 INFO [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-02 14:56:27 INFO [main] o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-8091"]
+2018-11-02 14:56:27 INFO [main] o.a.t.u.n.NioSelectorPool Using a shared selector for servlet write/read
+2018-11-02 14:56:27 INFO [main] o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 8091 (http) with context path ''
+2018-11-02 14:56:27 INFO [main] c.c.e.ExampleApplication Started ExampleApplication in 4.057 seconds (JVM running for 5.416)
+2018-11-02 14:57:00 INFO [pool-1-thread-1] u.c.w.Spider Spider stock.eastmoney.com stop fail!
+2018-11-02 14:57:00 INFO [Thread-14] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-02 14:57:00 INFO [pool-2-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-02 14:57:35 INFO [pool-2-thread-4] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976199780.html
+2018-11-02 14:57:35 INFO [pool-2-thread-2] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976306152.html
+2018-11-02 14:57:35 INFO [pool-2-thread-5] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976145912.html
+2018-11-02 14:57:35 INFO [pool-2-thread-3] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976203179.html
+2018-11-02 14:57:35 INFO [pool-2-thread-4] c.a.d.p.DruidDataSource {dataSource-1} inited
+2018-11-02 14:57:37 INFO [pool-2-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976059851.html
+2018-11-02 14:57:51 INFO [pool-2-thread-2] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102975948750.html
+2018-11-02 14:57:51 INFO [pool-2-thread-5] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102975909773.html
+2018-11-02 14:57:51 INFO [pool-2-thread-3] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/20181102976313817.html
+2018-11-02 14:57:51 INFO [pool-2-thread-4] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975971880.html
+2018-11-02 14:58:01 INFO [pool-1-thread-1] u.c.w.Spider Spider stock.eastmoney.com stop fail!
+2018-11-02 14:58:01 INFO [Thread-16] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-02 14:58:03 INFO [pool-3-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-02 14:58:03 INFO [pool-2-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975841439.html
+2018-11-02 14:58:03 INFO [pool-2-thread-5] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975850656.html
+2018-11-02 14:58:03 INFO [pool-2-thread-4] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975840169.html
+2018-11-02 14:58:03 INFO [pool-2-thread-2] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975840885.html
+2018-11-02 14:58:04 INFO [Thread-16] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.
+2018-11-02 14:58:05 INFO [pool-2-thread-5] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975839953.html
+2018-11-02 14:58:06 INFO [pool-2-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975809489.html
+2018-11-02 14:58:07 INFO [pool-2-thread-4] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975805414.html
+2018-11-02 14:58:07 INFO [pool-2-thread-2] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975805172.html
+2018-11-02 14:58:07 INFO [pool-2-thread-3] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975795632.html
+2018-11-02 14:58:09 INFO [pool-2-thread-4] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181102975768057.html
+2018-11-02 14:58:09 INFO [pool-2-thread-2] u.c.w.d.HttpClientDownloader downloading page success http://finance.eastmoney.com/a/20181101975630943.html
+2018-11-02 14:59:02 INFO [pool-1-thread-1] u.c.w.Spider Spider stock.eastmoney.com stop fail!
+2018-11-02 14:59:02 INFO [Thread-17] u.c.w.Spider Spider stock.eastmoney.com started!
+2018-11-02 14:59:02 INFO [pool-4-thread-1] u.c.w.d.HttpClientDownloader downloading page success http://stock.eastmoney.com/a/cdpfx.html
+2018-11-02 14:59:05 INFO [Thread-14] u.c.w.Spider Spider stock.eastmoney.com closed! 21 pages downloaded.
+2018-11-02 14:59:06 INFO [Thread-17] u.c.w.Spider Spider stock.eastmoney.com closed! 1 pages downloaded.

@@ -1,0 +1,7 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: news_crawler
+  profiles:
+    include: postgre ,kafka ,redis
